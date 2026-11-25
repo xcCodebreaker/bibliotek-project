@@ -1,0 +1,17 @@
+# virtual environment
+.venv/
+venv/
+
+# database file (each person makes their own with migrate)
+db.sqlite3
+
+# python cache files
+__pycache__/
+*.pyc
+
+# secret settings
+.env
+
+# collected static files and uploaded files
+staticfiles/
+media/
